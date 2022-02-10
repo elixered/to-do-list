@@ -117,3 +117,9 @@ body {
 .completed {
   text-decoration: line-through;
 }
+
+@media (hover: none) {
+  button {
+    opacity: 100;
+  }
+}
