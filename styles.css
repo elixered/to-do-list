@@ -7,18 +7,22 @@
 }
 
 body {
-  height: 100vh;
-  background: linear-gradient(135deg, #8052ec, #d161ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh;  */
+  /* background: linear-gradient(135deg, #8052ec, #d161ff);  */
 }
 
 .container {
-  /* border: 2px solid white; */
+  border: 2px solid white;
   width: 40%;
   min-width: 450px;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  top: 50%;
+  /* position: absolute; */
+  /* transform: translate(-50%, -50%); */
+  /* left: 50%; */
+  /* top: 50%; */
+  margin-top: 100px;
   padding: 30px 40px;
 }
 
