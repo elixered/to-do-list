@@ -118,7 +118,7 @@ body {
   text-decoration: line-through;
 }
 
-@media (hover: none) {
+@media (pointer: none) {
   button {
     opacity: 100;
   }
